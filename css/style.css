@@ -189,6 +189,8 @@ body {
       border: solid 1.5px #eaebee; }
       .results-body .team-card-lead {
         margin-bottom: 30px; }
+      .results-body .team-card-admin p {
+        font-size: 1.779rem !important; }
       .results-body .team-card-header {
         margin: 0 2.5rem;
         height: 8.1rem; }
