@@ -179,7 +179,8 @@ body {
           white-space: nowrap;
           vertical-align: middle;
           display: table-cell;
-          font-size: 1.3rem; }
+          font-size: 1.3rem;
+          border-bottom: 1px solid #dee2e6; }
           .results-body .team-table .table tr td a {
             font-weight: 700; }
     .results-body .team-card {
