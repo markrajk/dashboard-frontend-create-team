@@ -227,16 +227,16 @@ body {
   display: inline-block; }
 .radio-checkbox label {
   position: relative;
-  width: 16px;
   height: 16px;
+  width: 16px;
   margin: 0;
   border: 2px solid #0077ff;
   border-radius: 50%; }
   .radio-checkbox label span {
     display: none;
     position: absolute;
-    height: 11px;
-    width: 11px;
+    height: 12px;
+    width: 12px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
