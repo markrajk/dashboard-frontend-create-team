@@ -192,7 +192,7 @@ body {
     // width: calc(100% - 24.4rem);
     height: 17rem;
     //margin-left: 24.4rem;
-    padding: 4.1rem 4.6rem 0 3.4rem;
+    padding: 4.1rem 0 0 0;
     background-color: #f8f9fb;
     //border-bottom: 1px solid #dee2e6;
     z-index: 500;
@@ -255,6 +255,11 @@ body {
       border-radius: 4px;
       border: solid 1.5px #eaebee;
       background-color: #ffffff;
+
+
+      @include respond(display-sm) {
+        width: 100%;
+      }
 
       & label {
         margin-left: 2.5rem;
@@ -349,9 +354,10 @@ body {
     & .team-card {
       border-radius: 4px;
       border: solid 1.5px #eaebee;
+      margin-right: 3%;
 
       &-lead {
-        margin-bottom: 30px;
+        margin-bottom: 3%;
       }
 
       &-admin {
@@ -387,9 +393,13 @@ body {
       border-radius: 4px;
       border: solid 1.5px #eaebee;
 
+      // & .radio-input-container {
+      //   height: 5rem;
+      // }
+
       & p {
         font-size: 1.4rem;
-        line-height: 2;
+        line-height: 1.2;
         color: #000a19;
       }
 
@@ -412,7 +422,7 @@ body {
 
 // UTILITIES
 .radio-checkbox {
-  
+  margin-bottom: -2px;
   & input {
     display: none;
 

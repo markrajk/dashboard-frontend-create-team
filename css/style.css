@@ -101,7 +101,7 @@ body {
   padding: 0 4.6rem 2.8rem 3.4rem; }
   .results-header {
     height: 17rem;
-    padding: 4.1rem 4.6rem 0 3.4rem;
+    padding: 4.1rem 0 0 0;
     background-color: #f8f9fb;
     z-index: 500; }
     .results-header-logout {
@@ -200,9 +200,10 @@ body {
           border-top: none !important; }
     .results-body .team-card {
       border-radius: 4px;
-      border: solid 1.5px #eaebee; }
+      border: solid 1.5px #eaebee;
+      margin-right: 3%; }
       .results-body .team-card-lead {
-        margin-bottom: 30px; }
+        margin-bottom: 3%; }
       .results-body .team-card-admin p {
         font-size: 1.779rem !important; }
       .results-body .team-card-header {
@@ -225,7 +226,7 @@ body {
       border: solid 1.5px #eaebee; }
       .results-body .card-confirm p {
         font-size: 1.4rem;
-        line-height: 2;
+        line-height: 1.2;
         color: #000a19; }
       .results-body .card-confirm button {
         white-space: nowrap;
@@ -239,27 +240,29 @@ body {
         background-color: #0077ff;
         vertical-align: middle; }
 
-.radio-checkbox input {
-  display: none; }
-.radio-checkbox input[type=checkbox]:checked + label span {
-  display: inline-block; }
-.radio-checkbox label {
-  position: relative;
-  height: 16px;
-  width: 16px;
-  margin: 0;
-  border: 2px solid #0077ff;
-  border-radius: 50%; }
-  .radio-checkbox label span {
-    display: none;
-    position: absolute;
-    height: 12px;
-    width: 12px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid #fff;
-    background-color: #0077ff;
+.radio-checkbox {
+  margin-bottom: -2px; }
+  .radio-checkbox input {
+    display: none; }
+  .radio-checkbox input[type=checkbox]:checked + label span {
+    display: inline-block; }
+  .radio-checkbox label {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    border: 2px solid #0077ff;
     border-radius: 50%; }
+    .radio-checkbox label span {
+      display: none;
+      position: absolute;
+      height: 12px;
+      width: 12px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 2px solid #fff;
+      background-color: #0077ff;
+      border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
