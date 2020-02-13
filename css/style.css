@@ -152,7 +152,7 @@ body {
       .results-body .team-name label {
         margin-left: 2.5rem;
         margin-right: 2.9rem;
-        font-size: 18px;
+        font-size: 1.8rem;
         font-weight: 700;
         line-height: 1.22;
         letter-spacing: 0.12px;
@@ -199,6 +199,10 @@ body {
           border-bottom: 1px solid #dee2e6; }
           .results-body .team-table .table tr td a {
             font-weight: 700; }
+        .results-body .team-table .table tr:last-child > td {
+          border-bottom: none !important; }
+        .results-body .team-table .table tr:first-child > td {
+          border-top: none !important; }
     .results-body .team-card {
       border-radius: 4px;
       border: solid 1.5px #eaebee; }
@@ -207,8 +211,9 @@ body {
       .results-body .team-card-admin p {
         font-size: 1.779rem !important; }
       .results-body .team-card-header {
-        margin: 0 2.5rem;
-        height: 8.1rem; }
+        padding: 0 2.5rem;
+        height: 8.1rem;
+        border-bottom: solid 1.5px #eaebee; }
         .results-body .team-card-header p {
           font-size: 1.8rem;
           font-weight: 700;

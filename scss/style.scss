@@ -258,7 +258,7 @@ body {
       & label {
         margin-left: 2.5rem;
         margin-right: 2.9rem;
-        font-size: 18px;
+        font-size: 1.8rem;
         font-weight: 700;
         line-height: 1.22;
         letter-spacing: 0.12px;
@@ -313,6 +313,9 @@ body {
 
       & .table {
         margin-bottom: 0;
+        
+
+        
 
         & tr {
           height: 3.9rem;
@@ -326,6 +329,14 @@ body {
             & a {
               font-weight: 700;
             }
+          }
+
+          &:last-child > td {
+            border-bottom: none!important;
+          }
+
+          &:first-child > td {
+            border-top: none!important;
           }
         }
       }
@@ -346,8 +357,9 @@ body {
       }
 
       &-header {
-        margin: 0 2.5rem;
+        padding: 0 2.5rem;
         height: 8.1rem;
+        border-bottom: solid 1.5px #eaebee;
 
         & p {
          
