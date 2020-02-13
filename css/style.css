@@ -159,7 +159,7 @@ body {
         width: 28.1rem;
         height: 4.7rem;
         padding-left: 1.7rem;
-        font-size: 1.5px;
+        font-size: 1.5rem;
         font-weight: 500;
         line-height: 1.2;
         color: rgba(0, 0, 0, 0.7);
@@ -168,7 +168,7 @@ body {
         border: none; }
         .results-body .team-name input::placeholder {
           color: rgba(0, 0, 0, 0.7);
-          font-size: 1.5px; }
+          font-size: 1.5rem; }
     .results-body .team-table-member {
       min-height: 27rem;
       height: 100%;
